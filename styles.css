@@ -1,0 +1,126 @@
+/* START GLOBAL VARIABLES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root{
+    /* PRIMARY COLORS */
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+/* DEFAULT SETTINGS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND SETTINGS */
+
+body {
+   
+    background-color: var(--Violet);
+    background-image: url('images/bg-desktop.svg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Poppins',sans-serif; 
+}
+
+/* END GLOBAL VARIABLES */
+
+/* START LOGO PAGE */
+
+.logo_page {
+    margin-top: 5em;
+    margin-left: 5em;
+
+}
+
+.logo_svg_page {
+    height: 50px;
+}
+
+/* END LOGO PAGE */
+
+/* START PRINCIPAL PAGE */
+
+.principal_page {
+    display: flex;
+    margin-left: 5em;
+    margin-top: 60px;
+    margin-bottom: 3em;
+}
+
+/* START TEXT PAGE */
+
+.text_page {
+    margin-left: 3em;
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TITLE TEXT */
+
+.title_card_page {
+    margin-top: 45px;
+    font-size: 2.25em;
+    color: #fff;
+}
+
+/* DESCRIPTION TEXT */
+
+.description_card_page {
+    margin-top: 2em;
+    font-size: 0.92em;
+    color: #fff;
+}
+
+/* END TEXT PAGE */
+
+/* REGISTER BUTTON */
+
+.button_card_page {
+    margin-top: 1.5em;
+    display:block;
+    width: 180px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--Violet);
+    border-radius: 30px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(73,44,107,1);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(73,44,107,1);
+    box-shadow: 10px 10px 23px 0px rgba(73,44,107,1);
+}
+
+/* END PRINCIPAL PAGE */
+
+/* START ICONS FOOTER PAGE */
+
+.icons_page_footer{
+    text-align: right;
+    margin-right: 3em;
+}
+
+.icons_page_footer > img {
+    width: 3em;
+    height: 3em;
+    margin-right: 15px;
+}
+
+/* END ICONS FOOTER PAGE */
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: #fff;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
