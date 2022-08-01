@@ -96,6 +96,11 @@ body {
     -webkit-box-shadow: 10px 10px 23px 0px rgba(73,44,107,1);
     -moz-box-shadow: 10px 10px 23px 0px rgba(73,44,107,1);
     box-shadow: 10px 10px 23px 0px rgba(73,44,107,1);
+    cursor: pointer;
+}
+
+.button_card_page:hover {
+    color: var(--Soft-Magenta);
 }
 
 /* END PRINCIPAL PAGE */
@@ -111,6 +116,7 @@ body {
     width: 3em;
     height: 3em;
     margin-right: 15px;
+    cursor: pointer;
 }
 
 /* END ICONS FOOTER PAGE */
